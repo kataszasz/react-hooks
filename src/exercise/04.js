@@ -62,6 +62,7 @@ function Game() {
       <div className="game-board">
         <Board />
       </div>
+      
     </div>
   )
 }
