@@ -66,7 +66,7 @@ function Game() {
 
     return (
       <li key={step}>
-        <button disabled={isCurrentStep} onClick={() => setCurrentStep(step)}>
+        <button disabCled={isCurrentStep} onClick={() => setCurrentStep(step)}>
           {currentText} {isCurrentStep ? '(current)' : null}
         </button>
       </li>
